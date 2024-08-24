@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabañas María Elena</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="./Imgn/logo.jpg" alt="Cabañas María Elena">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="btn-container">
+                <a href="#reservar" class="btn-reservar">Reservar</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Descubre el Encanto de Nuestras Cabañas</h1>
+            <p>Relájate en un entorno natural con todas las comodidades.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Características -->
+    <section id="caracteristicas" class="caracteristicas">
+        <div class="features-list">
+            <div class="feature-item">
+                <h3>Confort y Relax</h3>
+                <p>Disfruta de nuestras cabañas completamente equipadas.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Entorno Natural</h3>
+                <p>Ubicación en un entorno natural que te hará sentirte en paz.</p>
+            </div>
+            <!-- Añadir más características aquí -->
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="galeria">
+        <div class="slider">
+            <div class="slide">
+                <img src="./Imgn/CAB1.jpg" alt="Cabaña 1">
+                <img src="./Imgn/CAB2.jpg" alt="Cabaña 2">
+            </div>
+            <div class="slide">
+                <img src="./Imgn/CAB3.jpg" alt="Cabaña 3">
+                <img src="./Imgn/CAB4.jpg" alt="Cabaña 4">
+            </div>
+            <div class="slide">
+                <img src="./Imgn/INTCAB5.jpg" alt="Cabaña 5">
+                <img src="./Imgn/INTCAB6.jpg" alt="Cabaña 6">
+            </div>
+            <div class="slide">
+                <img src="./Imgn/INTCAB6A.jpg" alt="Cabaña 7">
+                <img src="./Imgn/INTCAB6B.jpg" alt="Cabaña 8">
+            </div>
+            <div class="slide">
+                <img src="./Imgn/CABPrincipal.jpg" alt="Piscina">
+                <img src="./Imgn/CAB5.jpg" alt="Algarrobo">
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-btn prev">Previo</button>
+            <button class="slider-btn next">Siguiente</button>
+        </div>
+    </section>
+    
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="servicios-etiquetas">
+            <div class="etiqueta">Piscina</div>
+            <div class="etiqueta">Quincho para asados</div>
+            <div class="etiqueta">Jardín</div>
+            <div class="etiqueta">Sala de juegos</div>
+            <!-- Añadir más etiquetas aquí -->
+        </div>
+    </section>
+    
+    <section id="video" class="video">
+        <h3>Descubre nuestras cabañas</h3>
+        <div class="video-embed">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/6Co-JrolaLQ" title="CABAÑAS MARIA ELENA  - ALGARROBO   - CHILE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+
+    <!-- Sección de Testimonios -->
+    <section id="testimonios" class="testimonios">
+        <div class="container">
+            <div class="testimonios-grid">
+                <div class="testimonio">
+                    <p>"La mejor experiencia de mi vida. ¡Volveremos seguro!"</p>
+                    <p>- Juan Pérez</p>
+                </div>
+                <!-- Añadir más testimonios aquí -->
+            </div>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1666.1451108415808!2d-71.65354675557249!3d-33.363488399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662130035fa9473%3A0x4ffd2db47370c41!2sCondominio%20Los%20Pitigues!5e0!3m2!1ses-419!2scl!4v1724533842212!5m2!1ses-419!2scl" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto y Redes Sociales -->
+    <section id="contacto" class="contacto">
+        <div class="contacto-form">
+            <h3>Contacto</h3>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+        <div class="redes-sociales">
+            <h3>Síguenos en:</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100054599582958" class="social-icon facebook" target="_blank">Facebook</a></li>
+                <li><a href="#" class="social-icon twitter" target="_blank">Twitter</a></li>
+                <li><a href="#" class="social-icon instagram" target="_blank">Instagram</a></li>
+                <!-- Añadir más redes sociales aquí -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <p>&copy; 2024 Cabañas María Elena. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="index.js"></script>
+</body>
+</html>

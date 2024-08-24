@@ -1,0 +1,12 @@
+{
+  "name": "cabmael",
+  "version": "1.0.0",
+  "description": "Es una pagina html simple con un index.js para el control del slide de imagenes y un css para los estilos.\r Tambien cuenta con disenio responsivo para verlo desde cualquier tablet o smartphone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
