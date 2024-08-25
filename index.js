@@ -1,15 +1,15 @@
-require('dotenv').config(); // Asegúrate de que esta línea esté al principio del archivo
-
 const express = require('express');
 const path = require('path');
+require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 3000; // Usa la variable PORT del archivo .env
+const port = process.env.PORT || 3000;
 
-app.use(express.static(path.join(__dirname, 'public')));
+// Servir archivos estáticos desde el directorio raíz
+app.use(express.static(__dirname));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(port, () => {
